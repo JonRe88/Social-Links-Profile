@@ -1,0 +1,87 @@
+/* Estilos generales */
+
+html {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+     width: 1440px; /* Centrado horizontal */
+    height: 960px; /
+}
+
+
+body {
+    background-color: #141414; /* Fondo oscuro */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 960px;
+
+}
+
+/* Contenedor principal */
+.card {
+    background-color: #1f1f1f; /* Color oscuro para la tarjeta */
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 380px;
+    height: 615px;
+}
+
+/* Imagen de perfil */
+.profile-img {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+/* Nombre */
+.name {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Ubicación */
+.location {
+    color: #a3d977; /* Verde neón */
+    font-size: 14px;
+    margin: 10px ;
+margin-bottom: 30px;
+}
+
+/* Biografía */
+.bio {
+    font-size: 14px;
+    margin-bottom:  0px;
+}
+
+/* Contenedorww de enlaces */
+.links {
+    display: flex;
+    padding:40px 20px;
+    flex-direction: column;
+    gap: 12px; /* Espaciado entre botones */
+}
+
+/* Estilos de los enlaces */
+.links a {
+    display: block;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+/* Hover y Focus para accesibilidad */
+.links a:hover,
+.links a:focus {
+    color:black;
+    background-color:  hsl(75, 94%, 57%); /* Verde lima */
+    outline: 1px  hsl(75, 94%, 57%) ; /* Resaltado al enfocar */
+}
