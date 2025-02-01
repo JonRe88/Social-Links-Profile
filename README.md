@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](assets/images/Body.png)
+![](/Body.png)
 
 
 ### Built with
